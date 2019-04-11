@@ -1,0 +1,40 @@
+body{
+    font-family: "Lucida Console";
+    margin: 0px;
+    background-color: #282828;
+}
+*,
+*:after,
+*:before{
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    margin: 50px auto;
+}
+.logo-font1{
+    font-family: "Segoe Print";
+    font-size: 24pt;
+    color: #cccccc;
+}
+.logo-font2{
+    font-family: Cambria;
+    font-size: 24pt;
+    color:#b15e33;
+}
+.logo-font3{
+     font-family: Cambria;
+     font-size: 24pt;
+    color: #ccc;
+ }
+.logo-caption{
+    position: absolute;
+    left: 90px;
+    top:40px;
+}
+.img-caption{
+    background-image: url("../images/biketire.png");
+    background-size: cover;
+    min-height: 100vh;
+    mii-width: 100vw;
+}
