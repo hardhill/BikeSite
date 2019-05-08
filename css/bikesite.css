@@ -11,6 +11,7 @@ body{
 .container{
     width: 800px;
     margin: 50px auto;
+    background-color: #cccccc;
 }
 .logo-font1{
     font-family: "Segoe Print";
@@ -28,15 +29,12 @@ body{
     color: #ccc;
  }
 .logo-caption{
-    position: absolute;
+    position: relative;
     left: 90px;
     top:40px;
 }
 .img-caption{
     background: url("../images/biketire.png") center no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
+    width: 800px;
     max-height: 520px;
 }
