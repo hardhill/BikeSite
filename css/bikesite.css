@@ -18,7 +18,11 @@ h1, h2, h3, h4 {
     width: 100%;
     max-width: 1100px;
     margin: 0px auto;
-    background-color: #ededed;
+    background-color: #ffffff;
+}
+
+.mb-70 {
+    margin-bottom: -70px;
 }
 
 /*menu navigation*/
@@ -106,6 +110,43 @@ h2 {
     width: 800px;
 }
 
+.subtitle {
+    display: flex;
+    margin: 10px 20px;
+    align-items: center;
+
+}
+
+.datepost {
+    font-size: 14px;
+    color: #393025;
+    margin: 0px 10px;
+}
+
+.v-line {
+    width: 3px;
+    height: 1rem;
+    background-color: #393025;
+}
+
+.rubrika {
+    font-size: 10px;
+    margin: 0px 10px;
+    display: inline-block;
+}
+
+.post-text {
+    padding: 5px 15px;
+}
+
 .postside {
     width: 300px;
+}
+
+.footer_image {
+    background: url("../images/footer_02.png") center no-repeat;
+    width: 100%;
+    max-width: 1100px;
+    height: 175px;
+
 }
