@@ -1,69 +1,111 @@
-body{
+body {
     font-family: "Lucida Console";
     margin: 0px;
     background-color: #393025;
 }
-h1,h2,h3,h4{
+
+h1, h2, h3, h4 {
     margin: 0px;
 }
+
 *,
 *:after,
-*:before{
+*:before {
     box-sizing: border-box;
 }
-.container{
+
+.container {
     width: 100%;
     max-width: 1100px;
     margin: 0px auto;
-    background-color: #cccccc;
+    background-color: #ededed;
 }
 
 /*menu navigation*/
 .header_line {
-
-    display: flex;
-    justify-content: space-between;
     top: 0px;
     background: url("../images/biketire.png") center no-repeat;
     background-size: 1100px 520px;
     width: 1100px;
-    height: 520px;
+    height: 500px;
+    padding: 30px;
 }
-.logo-font1{
+
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-font1 {
     font-family: "Segoe Print";
     font-size: 18pt;
     color: #cccccc;
 }
-.logo-font2{
+
+.logo-font2 {
     font-family: Cambria;
     font-size: 18pt;
-    color:#b15e33;
+    color: #b15e33;
 }
-.logo-font3{
-     font-family: Cambria;
-     font-size: 18pt;
+
+.logo-font3 {
+    font-family: Cambria;
+    font-size: 18pt;
     color: #ccc;
- }
-.logo-caption{
+}
+
+.logo-caption {
     left: 30px;
-    top:18px;
+    top: 18px;
 }
 
 .nav {
     font-size: 14px;
-
+    text-transform: uppercase;
 }
 
-h2{
+.nav_link {
+    display: inline-block;
+    vertical-align: top;
+    color: #fff2cb;
+    background-color: rgba(57, 48, 37, 0.33);
+    text-decoration: none;
+    transition: color .2s linear;
+    margin: 0px 10px;
+    padding: 5px;
+}
+
+.nav_link:hover {
+    color: #d5c40a;
+    background-color: #393025;
+}
+
+/*publics*/
+h2 {
     font-family: "Segoe UI";
     font-size: 30px;
     color: #336666;
     margin-left: 72px;
 }
-.postmain{
+
+.postmain {
     display: flex;
     justify-content: space-between;
-}
-.postside{
+    width: auto;
+    margin: 0px 20px;
+    background-color: #cccccc;
+    position: relative;
+    top: -60px;
+    padding-top: 12px;
+    z-index: 100;
 
+}
+
+.postlist {
+    width: 800px;
+}
+
+.postside {
+    width: 300px;
 }
