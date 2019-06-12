@@ -12,13 +12,22 @@ h1,h2,h3,h4{
     box-sizing: border-box;
 }
 .container{
-    width: 1100px;
+    width: 100%;
+    max-width: 1100px;
     margin: 0px auto;
     background-color: #cccccc;
 }
-.hmargin{
-    height: 50px;
-    background-color: #393025;
+
+/*menu navigation*/
+.header_line {
+
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+    background: url("../images/biketire.png") center no-repeat;
+    background-size: 1100px 520px;
+    width: 1100px;
+    height: 520px;
 }
 .logo-font1{
     font-family: "Segoe Print";
@@ -36,16 +45,15 @@ h1,h2,h3,h4{
     color: #ccc;
  }
 .logo-caption{
-    position: relative;
     left: 30px;
     top:18px;
 }
-.img-caption{
-    background: url("../images/biketire.png") center no-repeat;
-    background-size: 1100px 520px;
-    width: 1100px;
-    height: 520px;
+
+.nav {
+    font-size: 14px;
+
 }
+
 h2{
     font-family: "Segoe UI";
     font-size: 30px;
@@ -53,8 +61,8 @@ h2{
     margin-left: 72px;
 }
 .postmain{
-    display: block;
-    float: left;
+    display: flex;
+    justify-content: space-between;
 }
 .postside{
 
