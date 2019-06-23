@@ -136,7 +136,11 @@ h2 {
 }
 
 .post-text {
-    padding: 5px 15px;
+    padding: 5px 20px;
+}
+
+.tegi {
+    margin: 10px 29px;
 }
 
 .postside {
@@ -149,7 +153,10 @@ h2 {
     max-width: 1100px;
     height: 175px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 10px 20px;
+
 }
 
 .postmail {
