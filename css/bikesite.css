@@ -1,164 +1,311 @@
-body {
-    font-family: "Lucida Console";
-    margin: 0px;
-    background-color: #393025;
+@media screen and (min-width: 320px) {
+    body {
+        font-family: "Lucida Console";
+        margin: 0px;
+        background-color: #393025;
+    }
+
+    h1, h2, h3, h4 {
+        margin: 0px;
+    }
+
+    *,
+    *:after,
+    *:before {
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 320px;
+        margin: 0px auto;
+        background-color: #ffffff;
+    }
+
+    .mb-70 {
+        margin-bottom: -70px;
+    }
+
+    /*menu navigation*/
+    .header_line {
+        top: 0px;
+        background: url("../images/biketire-320.png") center no-repeat;
+        background-size: 320px 174px;
+        width: 320px;
+        height: 174px;
+        padding: 30px;
+    }
+
+    /*menu*/
+    .header_menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo-font1 {
+        font-family: "Segoe Print";
+        font-size: 18pt;
+        color: #cccccc;
+    }
+
+    .logo-font2 {
+        font-family: Cambria;
+        font-size: 18pt;
+        color: #b15e33;
+    }
+
+    .logo-font3 {
+        font-family: Cambria;
+        font-size: 18pt;
+        color: #ccc;
+    }
+
+    .logo-caption {
+        display: none;
+    }
+
+    .nav {
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    .nav_link {
+        display: inline-block;
+        vertical-align: top;
+        color: #fff2cb;
+        background-color: rgba(57, 48, 37, 0.33);
+        text-decoration: none;
+        transition: color .2s linear;
+        margin: 0px 10px;
+        padding: 5px;
+    }
+
+    .nav_link:hover {
+        color: #d5c40a;
+        background-color: #393025;
+    }
+
+    /*publics*/
+    h2 {
+        font-family: "Segoe UI";
+        font-size: 30px;
+        color: #336666;
+        margin-left: 10px;
+    }
+
+    .postmain {
+        display: block;
+        justify-content: space-between;
+        width: auto;
+        margin: 0px 20px;
+        background-color: #cccccc;
+        position: relative;
+        top: 10px;
+        padding-top: 12px;
+        z-index: 100;
+
+    }
+
+    .postlist {
+        width: auto;
+    }
+
+    .subtitle {
+        display: flex;
+        margin: 10px 20px;
+        align-items: center;
+
+    }
+
+    .datepost {
+        font-size: 14px;
+        color: #393025;
+        margin: 0px 10px;
+    }
+
+    .v-line {
+        width: 3px;
+        height: 1rem;
+        background-color: #393025;
+    }
+
+    .rubrika {
+        font-size: 10px;
+        margin: 0px 10px;
+        display: inline-block;
+    }
+
+    .post-text {
+        padding: 5px 20px;
+    }
+
+    .tegi {
+        margin: 10px 29px;
+    }
+
+    .postside {
+        width: 300px;
+    }
+
+    .footer_image {
+        background: url("../images/footer_02.png") center no-repeat;
+        width: 100%;
+        max-width: 1100px;
+        height: 175px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        padding: 10px 20px;
+
+    }
+
+    .postmail {
+        justify-content: right;
+    }
 }
 
-h1, h2, h3, h4 {
-    margin: 0px;
+@media screen and (min-width: 480px) {
+    .container {
+        width: 100%;
+        max-width: 480px;
+        margin: 0px auto;
+        background-color: #ffffff;
+    }
+
+    .logo-caption {
+        display: block;
+        left: 30px;
+        top: 18px;
+    }
 }
 
-*,
-*:after,
-*:before {
-    box-sizing: border-box;
+@media screen and (min-width: 760px) {
+    /*menu navigation*/
+    .header_line {
+        top: 0px;
+        background: url("../images/biketire-760.png") center no-repeat;
+        background-size: 760px 338px;
+        width: 760px;
+        height: 338px;
+        padding: 30px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 760px;
+        margin: 0px auto;
+        background-color: #ffffff;
+    }
+
+    .postmain {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        margin: 0px 20px;
+        background-color: #cccccc;
+        position: relative;
+        top: -60px;
+        padding-top: 12px;
+        z-index: 100;
+
+    }
+
+    .postlist {
+        max-width: 800px;
+    }
 }
 
-.container {
-    width: 100%;
-    max-width: 1100px;
-    margin: 0px auto;
-    background-color: #ffffff;
+@media screen and (min-width: 960px) {
+    .container {
+        width: 100%;
+        max-width: 960px;
+        margin: 0px auto;
+        background-color: #ffffff;
+    }
+
+    .header_line {
+        top: 0px;
+        background: url("../images/biketire-960.png") center no-repeat;
+        background-size: 960px 427px;
+        width: 960px;
+        height: 427px;
+        padding: 30px;
+    }
+
+    .header_menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo-font1 {
+        font-family: "Segoe Print";
+        font-size: 18pt;
+        color: #cccccc;
+    }
+
+    .logo-font2 {
+        font-family: Cambria;
+        font-size: 18pt;
+        color: #b15e33;
+    }
+
+    .logo-font3 {
+        font-family: Cambria;
+        font-size: 18pt;
+        color: #ccc;
+    }
+
+    .logo-caption {
+        left: 30px;
+        top: 18px;
+    }
+
+    .nav {
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    .nav_link {
+        display: inline-block;
+        vertical-align: top;
+        color: #fff2cb;
+        background-color: rgba(57, 48, 37, 0.33);
+        text-decoration: none;
+        transition: color .2s linear;
+        margin: 0px 10px;
+        padding: 5px;
+    }
+
+    .nav_link:hover {
+        color: #d5c40a;
+        background-color: #393025;
+    }
 }
 
-.mb-70 {
-    margin-bottom: -70px;
-}
+@media screen and (min-width: 1200px) {
 
-/*menu navigation*/
-.header_line {
-    top: 0px;
-    background: url("../images/biketire.png") center no-repeat;
-    background-size: 1100px 520px;
-    width: 1100px;
-    height: 500px;
-    padding: 30px;
-}
+    .container {
+        width: 100%;
+        max-width: 1100px;
+        margin: 0px auto;
+        background-color: #ffffff;
+    }
 
-.header_menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    .header_line {
+        top: 0px;
+        background: url("../images/biketire.png") center no-repeat;
+        background-size: 1100px 520px;
+        width: 1100px;
+        height: 500px;
+        padding: 30px;
+    }
 
-.logo-font1 {
-    font-family: "Segoe Print";
-    font-size: 18pt;
-    color: #cccccc;
-}
 
-.logo-font2 {
-    font-family: Cambria;
-    font-size: 18pt;
-    color: #b15e33;
-}
 
-.logo-font3 {
-    font-family: Cambria;
-    font-size: 18pt;
-    color: #ccc;
-}
 
-.logo-caption {
-    left: 30px;
-    top: 18px;
-}
 
-.nav {
-    font-size: 14px;
-    text-transform: uppercase;
-}
 
-.nav_link {
-    display: inline-block;
-    vertical-align: top;
-    color: #fff2cb;
-    background-color: rgba(57, 48, 37, 0.33);
-    text-decoration: none;
-    transition: color .2s linear;
-    margin: 0px 10px;
-    padding: 5px;
-}
 
-.nav_link:hover {
-    color: #d5c40a;
-    background-color: #393025;
-}
-
-/*publics*/
-h2 {
-    font-family: "Segoe UI";
-    font-size: 30px;
-    color: #336666;
-    margin-left: 72px;
-}
-
-.postmain {
-    display: flex;
-    justify-content: space-between;
-    width: auto;
-    margin: 0px 20px;
-    background-color: #cccccc;
-    position: relative;
-    top: -60px;
-    padding-top: 12px;
-    z-index: 100;
-
-}
-
-.postlist {
-    width: 800px;
-}
-
-.subtitle {
-    display: flex;
-    margin: 10px 20px;
-    align-items: center;
-
-}
-
-.datepost {
-    font-size: 14px;
-    color: #393025;
-    margin: 0px 10px;
-}
-
-.v-line {
-    width: 3px;
-    height: 1rem;
-    background-color: #393025;
-}
-
-.rubrika {
-    font-size: 10px;
-    margin: 0px 10px;
-    display: inline-block;
-}
-
-.post-text {
-    padding: 5px 20px;
-}
-
-.tegi {
-    margin: 10px 29px;
-}
-
-.postside {
-    width: 300px;
-}
-
-.footer_image {
-    background: url("../images/footer_02.png") center no-repeat;
-    width: 100%;
-    max-width: 1100px;
-    height: 175px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    padding: 10px 20px;
-
-}
-
-.postmail {
-    justify-content: right;
 }
